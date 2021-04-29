@@ -5,7 +5,6 @@
 
     <link rel="stylesheet" href="css/bootstrap-modified.css">
     <link rel="stylesheet" href="css/main.css">
-    <link href="css/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Raleway:400,300,700,900" rel="stylesheet">
     <script src="https://kit.fontawesome.com/5fdcd65016.js"></script>
   </head>
@@ -61,11 +60,94 @@
       </nav>
     </header>
 
+    <div class="image">
+      <img alt="Responsive image" src="assets/img/main-image-lower.jpg" id="test1" class="img-fluid">
+      <h2><span>ТЕКСТ ПОВЕРХ ШАПКИ ТЕКСТ ПОВЕРХ ШАПКИ ТЕКСТ ПОВЕРХ ШАПКИ <br>
+        ТЕКСТ ПОВЕРХ ШАПКИ ТЕКСТ ПОВЕРХ ШАПКИ ТЕКСТ ПОВЕРХ ШАПКИ</span></h2>
+    </div>
+    
+    <br><br><br>
 
-    <img alt="Responsive image" src="assets/img/main-image.jpg" id="test1" class="img-fluid">
-    <br>
+    <div class="container">
+      <ul class="timeline">
+
+        <!-- Item 1 -->
+        <li>
+          <div class="direction-r">
+            <div class="flag-wrapper">
+              <span class="flag">СЛОВО АВТОРА</span>
+            </div>
+            <!--<div class="desc">My current employment. Way better than the position before!</div>-->
+          </div>
+        </li>
+        
+        <!-- Item 2 -->
+        <li>
+          <div class="direction-l">
+            <div class="flag-wrapper">
+              <span class="flag">РОССИЙСКАЯ ФЕДЕРАЦИЯ - ПРИРОДНЫЙ ДОНОР ЕВРАЗИИ</span>
+            </div>
+            <!--<div class="desc">My first employer. All the stuff I've learned and projects I've been working on.</div>-->
+          </div>
+        </li>
+      
+        <!-- Item 3 -->
+        <li>
+          <div class="direction-r">
+            <div class="flag-wrapper">
+              <span class="flag">ЕСТЕСТВЕННЫЕ ПРИРОДНЫЕ И АНТРОПОГЕННО-ИЗМЕНЕННЫЕ ГЕОГРАФИЧЕСКИЕ СТРУКТУРЫ РОССИИ</span>
+            </div>
+            <!--<div class="desc">A description of all the lectures and courses I have taken and my final degree?</div>-->
+          </div>
+        </li>
+        
+      </ul>
+    </div>
 
 
+    <br><br><br>
+
+    <div class="container">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="assets/img/main-image-lower.jpg" alt="First slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Карта</h5>
+              <p>Описание</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="assets/img/main-image-lower.jpg" alt="Second slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Карта</h5>
+              <p>Описание</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="assets/img/main-image-lower.jpg" alt="Third slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Карта</h5>
+              <p>Описание</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    
 
     <br>
     <footer
@@ -121,7 +203,9 @@
         </div>
         <!-- Copyright -->
       </footer>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    
   </body>
 </html>
